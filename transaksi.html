@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinjaman - Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">PinjamDuluApp</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <center>
+        <h1>Halaman Transaksi</h1>
+    </center>
+        <form id="pinjamanForm">
+            <label for="jumlahPinjaman">Jumlah Pinjaman:</label>
+            <input type="number" id="jumlahPinjaman" name="jumlahPinjaman" required>
+
+            <label for="tenor">Tenor (bulan):</label>
+            <input type="number" id="tenor" name="tenor" required>
+
+            <button type="submit">Ajukan Pinjaman</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PinjamDuluApp. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
